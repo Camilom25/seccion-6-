@@ -1,0 +1,174 @@
+/*Esto es un comentario en css*/
+body{
+    /*Tipo de letra*/
+    font-family: 'Times New Roman', Times, serif;
+    /*Color del fondo*/
+    background-color: rgb(35, 136, 224);
+    /*Margen*/
+    margin: 0;
+    padding: 0 10%;
+    /*Interlineado*/
+    line-height: 1.6;
+}
+
+/*Header*/
+header{
+    background-color: rgba(128, 0, 11, 0.932);
+    color: rgb(208, 255, 0);   
+    text-align: center;
+    padding: 10px 0;
+    margin: 0px 30px;
+}
+
+header h1{
+   
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 10px;
+}
+
+header h2{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    color: rgb(0, 255, 179);
+}
+
+/*Navegación*/
+nav{
+    background-color: rgb(30, 255, 0);
+    padding: 12px;
+    text-align: center;
+    margin: 0px 30px;
+}
+
+nav a{
+    color: navy;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/*Al pasar el mouse por encima*/
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/*Sección principal*/
+.contenedor,
+.formulario{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    padding: 5px 25px;
+}
+
+/*Titulos*/
+h3{
+    color: gold;
+    /*Linea debajo del texto*/
+    border-bottom: 2px solid mediumblue;
+    padding-bottom: 5px;
+    font-size: 1.3em;
+}
+
+/*parrafos*/
+p{
+    text-align: justify;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+/*Imagenes*/
+img{    
+    display: block;
+    width: 250px;
+    margin: 25px;
+    padding: 5px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Listas*/
+ul,
+ol{
+    margin-left: 0px;
+}
+
+li{
+    margin: 5px 0;
+}
+
+/*Enlaces*/
+a{
+    color: rgb(255, 0, 13);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+   color: rgb(0, 128, 117);
+   text-decoration: underline; 
+}
+
+/*Tabla*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+}
+
+th,td{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.90em;
+}
+th{
+    background-color: navy;
+    color: white;
+}
+/*Filas impares*/
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+/*Formulario*/
+.formulario{
+    text-align: left;
+    color: gold;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.589);
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: gold;
+    font-size: 1em;
+}
+input,
+textarea,
+select{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+/*Pie de pagina*/
+footer{
+    background-color: navy;
+    color: gold    ;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+
+}

@@ -4,30 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>colombia</title>
+    <link rel="stylesheet" href="style seminario.css">
 </head>
 <body>
+
+    <header>
     <h1>colombia</h1>
     <h2>historia</h2>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#Sitios">Sitios</a>
+        <a href="#Ciudades">Ciudades</a>
+        <a href="#Regiones">Regiones</a>
+        <a href="#Formulario">Formulario</a>
+
+    </nav>
+    <main>
+        <div class="contenedor">
+            <h1>Historia de colombia </h1>
     <p>La historia de Colombia abarca desde el poblamiento precolombino, con culturas como la muisca y tairona, hasta la formación de la nación en 1810 a partir del Virreinato de la Nueva Granada, la independencia de España en 1819 y la posterior creación de la República de Colombia en 1886.</p>
-    <img src="./img/Flag_of_Colombia.svg.png" alt="Bandera de colombia" srcset="">
+    <img width="500px" src="./img/Flag_of_Colombia.svg.png" alt="Bandera de colombia" srcset="">
     <a href="https://es.wikipedia.org/wiki/Colombia">Historia de Colombia</a>
-    <h3>Sitios turisticos</h3>
+    </div>
+    <div class="contenedor" >
+    <h3 id="Sitios ">Sitios turisticos</h3>
     <ul>
         <li>Cascada Fin del Mundo, Putumayo.</li>
         <li>Parque Nacional Natural El Tuparro, Vichada</li>
         <li>Parque Arqueológico de San Agustín</li>
     </ul>
-    <h3>Principales Ciudades</h3>
+    </div>
+    <div class="contenedor">
+    <h3 id="Ciudades">Principales Ciudades</h3>
    <ol>
         <li>Bogota</li>
         <li>Medellin</li>
         <li>Cali</li>
 
-
-
    </ol>
-
-    <h3></h3>
+    </div>
+        <div class="contenedor">
+    <h3 id="Regiones">Regiones</h3>
     <table border="1">
         <thead>
             <tr>
@@ -54,6 +72,9 @@
 
 
     </table>
+        </div>
+        <div class="formulario">
+            <h3 id="Formulario">Formulario</h3>
          <form action="#">
 
         <label for="nombre">Nombre:</label>
@@ -70,7 +91,14 @@
             <input type="submit" value=" enviar " >
 
         </form>
+        </div>
+        </main>
+        <footer>
+            <small>Derechos reservados </small>
 
-        
+
+        </footer>
+
+
 </body>
 </html>
